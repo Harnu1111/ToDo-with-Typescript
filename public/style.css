@@ -1,0 +1,78 @@
+body{
+  background-color: #3f4f6a;
+  font-family: sans-serif;
+}
+
+.todo{
+    box-sizing: border-box
+    ;
+   width: 95vh;
+    background-color: #374151;
+   
+    margin: auto;
+    padding: 2em;
+    border-radius: 5px;
+    color: aliceblue;
+    list-style: none;
+   position: relative;
+}
+
+ul{
+   list-style-type: none;
+  margin: 0;
+}
+
+li{
+    background-color: #2c323a;
+    margin-bottom: 0.5em;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    margin-left: -2.5em;
+    display: flex;
+    position: relative;
+}
+
+.deleteBtn{
+      border: none;
+    background-image: linear-gradient(to right, rgb(165, 26, 49), rgb(15, 1, 24));
+    color: red ;
+    font-size: 1.1em;
+    font-weight: 600;
+    cursor: pointer;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    right: 0;
+}
+
+
+
+.todo h1,h3{
+    /* position: absolute; */
+color:#959a9e;
+
+}
+
+#input{
+   background-color:#2e303474;
+   width: 80%;
+   border: none;
+   border-radius: 10px;
+   height: 3em;
+   font-size: 1em;
+   color: #b8c8d5;
+   padding: 0.1em 1em;
+} 
+
+#button{
+    border: none;
+    background-image: linear-gradient(to right, rgb(165, 26, 49), rgb(15, 1, 24));
+    color: red ;
+    font-size: 1.1em;
+    font-weight: 600;
+    cursor: pointer;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
